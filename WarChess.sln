@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarChess", "WarChess\WarChess.csproj", "{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3F45096-97FD-4EFF-B187-584C28AC3B03}
+	EndGlobalSection
+EndGlobal

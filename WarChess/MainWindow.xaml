@@ -1,0 +1,57 @@
+﻿<Window x:Class="WarChess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WarChess"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Width="1920"
+        Height="1080"
+        WindowStyle="None"
+        Title="WarChess">
+    <Viewbox>
+        <Grid Width="1920">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*" />
+                <ColumnDefinition Width="18*" />
+                <ColumnDefinition Width="7*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Name="BattleField" Width="1080" Height="1080">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="Image/board.png" 
+                   Grid.RowSpan="11"
+                   Grid.ColumnSpan="11"/>
+            </Grid>
+            <Canvas Grid.Column="2" Name="Toolbar" Visibility="Hidden" Height="150" VerticalAlignment="Top" Margin="0,880,0,0">
+                <Image Source="Image/Approve.png" MouseDown="ApproveDown" Width="150" Margin="40,0,0,0" />
+                <Image Source="Image/Cancel.png" MouseDown="CancelDown" Width="150" Margin="240,0,0,0" />
+            </Canvas>
+        </Grid>
+    </Viewbox>
+</Window>

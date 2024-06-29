@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\Approve.png" />
+    <None Remove="Image\Attack.png" />
+    <None Remove="Image\background.png" />
+    <None Remove="Image\BArcher.jpg" />
+    <None Remove="Image\BArcher.png" />
+    <None Remove="Image\BCastle.png" />
+    <None Remove="Image\BKnight.jpg" />
+    <None Remove="Image\BKnight.png" />
+    <None Remove="Image\BLancer.jpg" />
+    <None Remove="Image\BLancer.png" />
+    <None Remove="Image\board.png" />
+    <None Remove="Image\BShield.jpg" />
+    <None Remove="Image\BShield.png" />
+    <None Remove="Image\BShield2.png" />
+    <None Remove="Image\Cancel.png" />
+    <None Remove="Image\Castle.png" />
+    <None Remove="Image\Move.png" />
+    <None Remove="Image\RArcher.jpg" />
+    <None Remove="Image\RArcher.png" />
+    <None Remove="Image\RCastle.png" />
+    <None Remove="Image\RKnight.jpg" />
+    <None Remove="Image\RKnight.png" />
+    <None Remove="Image\RLancer.jpg" />
+    <None Remove="Image\RLancer.png" />
+    <None Remove="Image\RShield.jpg" />
+    <None Remove="Image\RShield.png" />
+    <None Remove="Image\RShield2.png" />
+    <None Remove="Image\Select.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\Attack.png" />
+    <Resource Include="Image\BShield2.png" />
+    <Resource Include="Image\Cancel.png" />
+    <Resource Include="Image\Approve.png" />
+    <Resource Include="Image\Move.png" />
+    <Resource Include="Image\RShield2.png" />
+    <Resource Include="Image\Select.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\BArcher.png" />
+    <Resource Include="Image\BCastle.png" />
+    <Resource Include="Image\BKnight.png" />
+    <Resource Include="Image\BLancer.png" />
+    <Resource Include="Image\board.png" />
+    <Resource Include="Image\BShield.png" />
+    <Resource Include="Image\Castle.png" />
+    <Resource Include="Image\RArcher.png" />
+    <Resource Include="Image\RCastle.png" />
+    <Resource Include="Image\RKnight.png" />
+    <Resource Include="Image\RLancer.png" />
+    <Resource Include="Image\RShield.png" />
+  </ItemGroup>
+
+</Project>

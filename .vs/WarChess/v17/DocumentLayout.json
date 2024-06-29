@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\C#\\WarChess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}|WarChess\\WarChess.csproj|d:\\work\\c#\\warchess\\warchess\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}|WarChess\\WarChess.csproj|solutionrelative:warchess\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}|WarChess\\WarChess.csproj|d:\\work\\c#\\warchess\\warchess\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A0F8B0B7-3E38-4DBD-90AE-F3C4D6FC907C}|WarChess\\WarChess.csproj|solutionrelative:warchess\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Work\\C#\\WarChess\\WarChess\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WarChess\\MainWindow.xaml",
+              "ToolTip": "D:\\Work\\C#\\WarChess\\WarChess\\MainWindow.xaml",
+              "RelativeToolTip": "WarChess\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T16:42:38.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\WarChess\\WarChess\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WarChess\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Work\\C#\\WarChess\\WarChess\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WarChess\\MainWindow.xaml.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAIwN8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T16:42:30.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
